@@ -1,4 +1,5 @@
 import React from 'react';
+import './ReviewPaeg.css'
 import useReviews from '../../CustomHook/useReviews';
 import ReviewCart from '../ReviewCart/ReviewCart';
 
