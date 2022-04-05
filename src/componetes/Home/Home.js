@@ -1,4 +1,5 @@
 import React from 'react';
+import CoustomReview from '../CoustomReview/CoustomReview';
 import './Home.css'
 const Home = () => {
     return (
@@ -23,6 +24,8 @@ const Home = () => {
                    src="https://images.unsplash.com/photo-1630312465536-5c6b1f76dc3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhbWJvcmdoaW5pfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
                </div>
            </div>
+
+           <CoustomReview />
         </div>
     );
 };
